@@ -14,4 +14,11 @@ public class FunRestController {
     public String sayHello(){
         return "Hello";
     }
+
+    @GetMapping("/haha")
+    public String sayHaha(){
+        return "Haha";
+    }
+
+
 }
